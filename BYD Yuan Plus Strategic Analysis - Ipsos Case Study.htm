@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///Users/yw/Downloads/byd_integrated_presentation.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYD Yuan Plus Strategic Analysis - Ipsos Case Study</title>
+    <script src="./BYD Yuan Plus Strategic Analysis - Ipsos Case Study_files/chart.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .slide {
+            background: white;
+            margin: 20px auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 1200px;
+            min-height: 600px;
+            page-break-after: always;
+            border-left: 6px solid #00a693;
+        }
+        
+        .slide-header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #00a693 100%);
+            color: white;
+            padding: 30px;
+            margin: -40px -40px 30px -40px;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .slide-number {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+        
+        .slide-title {
+            font-size: 2em;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .slide-subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin: 10px 0 0 0;
+        }
+        
+        .content-section {
+            margin: 30px 0;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f5b800;
+            padding-bottom: 5px;
+        }
+        
+        .key-insights {
+            background: #f8fafc;
+            border-left: 4px solid #f5b800;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .insight-point {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .insight-point::before {
+            content: '▶';
+            color: #f5b800;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        .chart-container {
+            margin: 30px 0;
+            padding: 20px;
+            background: #fafbfc;
+            border-radius: 8px;
+            border: 1px solid #e1e5e9;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+        
+        .dual-chart-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        
+        .pie-wrapper {
+            position: relative;
+            height: 300px;
+            text-align: center;
+        }
+        
+        .pie-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 15px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-top: 3px solid #00a693;
+        }
+        
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        
+        .metric-label {
+            color: #5a6c7d;
+            font-weight: 500;
+            font-size: 0.9em;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .data-table th {
+            background: linear-gradient(135deg, #1e3a5f 0%, #00a693 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .data-table td {
+            padding: 12px 15px;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .period-launch { background-color: #fff7e1; color: #b8860b; font-weight: 600; }
+        .period-growth { background-color: #e8f8f5; color: #2c6e49; font-weight: 600; }
+        .period-peak { background-color: #e1f4f3; color: #1e3a5f; font-weight: 600; }
+        .period-current { background-color: #fef2f2; color: #b91c1c; font-weight: 600; }
+        
+        .analytical-framework {
+            background: #e8f4f8;
+            border: 1px solid #00a693;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .framework-title {
+            color: #1e3a5f;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .strategic-point {
+            margin: 8px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .strategic-point::before {
+            content: '●';
+            color: #00a693;
+            position: absolute;
+            left: 0;
+        }
+        
+        .cover-slide {
+            text-align: center;
+            background: linear-gradient(135deg, #1e3a5f 0%, #00a693 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .cover-title {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cover-subtitle {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .cover-info {
+            font-size: 1.1em;
+            opacity: 0.8;
+        }
+        
+        @media print {
+            .slide {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .dual-chart-wrapper {
+                grid-template-columns: 1fr;
+            }
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: COVER -->
+<div class="slide cover-slide">
+    <div class="cover-title">BYD Yuan Plus Strategic Analysis</div>
+    <div class="cover-subtitle">Domestic Performance &amp; International Expansion Strategy</div>
+    <div class="cover-info">
+        Case Study for Ipsos Application<br>
+        Strategic Market Research &amp; Data Analysis<br>
+        July 2025
+    </div>
+</div>
+
+<!-- SLIDE 2: EXECUTIVE SUMMARY -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 1</div>
+        <div class="slide-title">Executive Summary &amp; Strategic Recommendations</div>
+        <div class="slide-subtitle">Key Findings &amp; Strategic Implications</div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">907K</div>
+            <div class="metric-label">Total Sales Units</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">18x</div>
+            <div class="metric-label">Growth from Launch</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">#1</div>
+            <div class="metric-label">Peak Market Ranking</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">$3.8B</div>
+            <div class="metric-label">Latin America Opportunity</div>
+        </div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Strategic Findings</div>
+        <div class="insight-point">Yuan Plus demonstrates scalable success model: 4.5K to 30.8K peak monthly sales (18x growth)</div>
+        <div class="insight-point">Segment-focused strategy validated: 2.3x stronger performance in compact SUV vs total SUV market</div>
+        <div class="insight-point">Market leadership achieved: #1 ranking in both total and compact SUV segments</div>
+        <div class="insight-point">Current challenge: 69% decline from peak requires strategic response and market diversification</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Core Recommendation</div>
+        <div class="strategic-point">Leverage proven domestic success model for Latin America expansion</div>
+        <div class="strategic-point">Prioritize Brazil market entry with segment-focused strategy</div>
+        <div class="strategic-point">Apply scalability learnings to achieve rapid market penetration</div>
+        <div class="strategic-point">Diversify market dependency to reduce China market volatility risk</div>
+    </div>
+</div>
+
+<!-- SLIDE 3: SALES PERFORMANCE EVOLUTION -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 2</div>
+        <div class="slide-title">Sales Performance Evolution &amp; Lifecycle Analysis</div>
+        <div class="slide-subtitle">Product Lifecycle Stages &amp; Performance Drivers</div>
+    </div>
+    
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <canvas id="salesChart" width="1158" height="400" style="display: block; box-sizing: border-box; height: 400px; width: 1158px;"></canvas>
+        </div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Lifecycle Analysis Framework</div>
+        <div class="strategic-point"><strong>Launch (Feb-Jun 2022):</strong> 266% growth validates product-market fit</div>
+        <div class="strategic-point"><strong>Growth (Jul 2022-Mar 2023):</strong> Consistent scaling demonstrates market acceptance</div>
+        <div class="strategic-point"><strong>Maturity (Apr-Nov 2023):</strong> Peak performance with market leadership achievement</div>
+        <div class="strategic-point"><strong>Challenge (Dec 2023-Present):</strong> Volatility indicates market saturation and competitive pressure</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Performance Pattern Analysis</div>
+        <div class="insight-point">Seasonal patterns identified: Q4 consistently outperforms (holiday effect)</div>
+        <div class="insight-point">Volatility assessment: Increasing variance post-peak signals market maturation</div>
+        <div class="insight-point">External factors: COVID-19 impact visible in mid-2022 with Q3 recovery</div>
+        <div class="insight-point">Demand drivers: Early adoption via differentiation, later performance affected by competition</div>
+    </div>
+</div>
+
+<!-- SLIDE 4: MARKET SHARE DYNAMICS -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 3</div>
+        <div class="slide-title">Market Share Dynamics &amp; Competitive Positioning</div>
+        <div class="slide-subtitle">Segment Strategy Effectiveness &amp; Market Penetration Analysis</div>
+    </div>
+    
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <canvas id="shareEvolutionChart" width="1158" height="400" style="display: block; box-sizing: border-box; height: 400px; width: 1158px;"></canvas>
+        </div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Market Share Trajectory Analysis</div>
+        <div class="strategic-point"><strong>Growth Pattern:</strong> 0.59% → 7.37% peak (12.5x market share increase)</div>
+        <div class="strategic-point"><strong>Segment Strategy:</strong> 2.3x advantage in compact SUV validates focused approach</div>
+        <div class="strategic-point"><strong>Competitive Response:</strong> Market share decline coincides with increased competition</div>
+        <div class="strategic-point"><strong>Market Ceiling:</strong> 7.4% may represent practical penetration limit in mature segment</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Strategic Positioning Insights</div>
+        <div class="insight-point">Segment focus validation: Compact SUV consistently outperforms total SUV market by 2-3x</div>
+        <div class="insight-point">Market penetration strategy: Achieved 6x growth from launch to peak performance</div>
+        <div class="insight-point">Competitive positioning: Ranking volatility suggests limited sustainable differentiation</div>
+        <div class="insight-point">Market maturity indicators: Recent decline reflects increased competitive pressure</div>
+    </div>
+</div>
+
+<!-- SLIDE 5: PEAK VS CURRENT ANALYSIS -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 4</div>
+        <div class="slide-title">Peak Performance vs Current Reality Analysis</div>
+        <div class="slide-subtitle">Market Leadership Validation &amp; Strategic Gap Assessment</div>
+    </div>
+    
+    <div class="dual-chart-wrapper">
+        <div class="chart-container">
+            <div class="pie-title">🏆 Peak Period (Apr 2023)</div>
+            <div class="pie-wrapper">
+                <canvas id="peakPieChart" width="543" height="300" style="display: block; box-sizing: border-box; height: 300px; width: 543px;"></canvas>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="pie-title">📊 Current Status (Jun 2025)</div>
+            <div class="pie-wrapper">
+                <canvas id="currentPieChart" width="543" height="300" style="display: block; box-sizing: border-box; height: 300px; width: 543px;"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Performance Gap Analysis</div>
+        <div class="strategic-point"><strong>Peak Achievement:</strong> 7.37% compact SUV share with #1 ranking validates product competitiveness</div>
+        <div class="strategic-point"><strong>Current Position:</strong> 2.74% share demonstrates resilience despite 63% decline from peak</div>
+        <div class="strategic-point"><strong>Strategic Implications:</strong> Gap between peak and current suggests recovery potential</div>
+        <div class="strategic-point"><strong>Market Reality:</strong> Current position still represents meaningful market presence</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Competitiveness Assessment</div>
+        <div class="insight-point">Market leadership validation: #1 ranking proves product can dominate competitive landscape</div>
+        <div class="insight-point">Resilience demonstration: 2.7% current share shows sustained market relevance</div>
+        <div class="insight-point">Recovery opportunity: Performance gap indicates potential for strategic repositioning</div>
+        <div class="insight-point">Segment advantage maintained: 2.3x compact SUV outperformance continues</div>
+    </div>
+</div>
+
+<!-- SLIDE 6: PERFORMANCE MILESTONES -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 5</div>
+        <div class="slide-title">Performance Milestones &amp; Strategic Inflection Points</div>
+        <div class="slide-subtitle">Critical Success Factors &amp; Strategic Timeline Analysis</div>
+    </div>
+    
+    <div class="content-section">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Period</th>
+                    <th>Date</th>
+                    <th>Total SUV Share</th>
+                    <th>Compact SUV Share</th>
+                    <th>Market Rank</th>
+                    <th>Sales Volume</th>
+                    <th>Strategic Significance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="period-launch">Launch</td>
+                    <td>Feb 2022</td>
+                    <td>0.59%</td>
+                    <td>1.20%</td>
+                    <td>#50</td>
+                    <td>4,517</td>
+                    <td>Market entry validation</td>
+                </tr>
+                <tr>
+                    <td class="period-growth">Breakthrough</td>
+                    <td>Nov 2022</td>
+                    <td>2.64%</td>
+                    <td>4.99%</td>
+                    <td>#2</td>
+                    <td>20,204</td>
+                    <td>Top-tier positioning achieved</td>
+                </tr>
+                <tr>
+                    <td class="period-peak">Peak Leadership</td>
+                    <td>Apr 2023</td>
+                    <td>3.53%</td>
+                    <td>7.37%</td>
+                    <td>#1</td>
+                    <td>28,931</td>
+                    <td>Market leadership demonstrated</td>
+                </tr>
+                <tr>
+                    <td class="period-current">Current Status</td>
+                    <td>Jun 2025</td>
+                    <td>1.21%</td>
+                    <td>2.74%</td>
+                    <td>#19</td>
+                    <td>13,168</td>
+                    <td>Strategic repositioning required</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Critical Success Factor Analysis</div>
+        <div class="strategic-point"><strong>Segment Focus:</strong> Consistent 2-3x advantage validates targeted approach</div>
+        <div class="strategic-point"><strong>Market Timing:</strong> Entry coincided with EV adoption acceleration</div>
+        <div class="strategic-point"><strong>Scalability:</strong> 18x growth demonstrates rapid scaling capability</div>
+        <div class="strategic-point"><strong>Competitive Excellence:</strong> #1 achievement proves superior product positioning</div>
+    </div>
+</div>
+
+<!-- SLIDE 7: SUCCESS FACTORS ANALYSIS -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 6</div>
+        <div class="slide-title">Success Factors &amp; Failure Points Analysis</div>
+        <div class="slide-subtitle">Data-Driven Causation Analysis &amp; Strategic Learnings</div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">6x</div>
+            <div class="metric-label">Market Share Growth Peak</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">2.3x</div>
+            <div class="metric-label">Compact SUV Advantage</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">#1</div>
+            <div class="metric-label">Peak Market Position</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">13K</div>
+            <div class="metric-label">Current Monthly Sales</div>
+        </div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Success Driver Analysis</div>
+        <div class="strategic-point"><strong>Segment Focus Strategy:</strong> 2.3x compact SUV advantage demonstrates focused approach effectiveness</div>
+        <div class="strategic-point"><strong>Product-Market Fit:</strong> Rapid scaling from 4.5K to 30.8K validates consumer resonance</div>
+        <div class="strategic-point"><strong>Competitive Positioning:</strong> #1 ranking achievement proves superior market positioning</div>
+        <div class="strategic-point"><strong>Market Timing:</strong> Entry during EV adoption acceleration maximized opportunity</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Failure Point Analysis</div>
+        <div class="insight-point">Market saturation: 69% decline suggests market maturity and increased competition</div>
+        <div class="insight-point">Competitive response: Performance decline coincides with competitor market entry</div>
+        <div class="insight-point">External factors: Economic conditions and policy changes affect EV adoption</div>
+        <div class="insight-point">Strategic adaptation: Need for continuous innovation and market repositioning</div>
+    </div>
+</div>
+
+<!-- SLIDE 8: SCALABILITY MODEL -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 7</div>
+        <div class="slide-title">Domestic Insights &amp; International Scalability Model</div>
+        <div class="slide-subtitle">Transferable Success Patterns for Global Expansion</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Proven Success Formula</div>
+        <div class="strategic-point"><strong>Market Entry Model:</strong> Segment focus + competitive pricing + rapid scaling</div>
+        <div class="strategic-point"><strong>Growth Trajectory:</strong> Launch → Breakthrough → Leadership → Adaptation cycle</div>
+        <div class="strategic-point"><strong>Competitive Strategy:</strong> Product differentiation with targeted market positioning</div>
+        <div class="strategic-point"><strong>Scalability Validation:</strong> 18x growth demonstrates rapid market capture capability</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">International Application Framework</div>
+        <div class="insight-point">Segment focus replication: Apply 2.3x advantage strategy to international compact SUV markets</div>
+        <div class="insight-point">Market timing optimization: Enter markets during EV adoption acceleration phase</div>
+        <div class="insight-point">Competitive positioning: Leverage proven #1 ranking capability for market leadership</div>
+        <div class="insight-point">Risk mitigation: Apply failure learnings to avoid domestic performance decline patterns</div>
+    </div>
+    
+    <div class="content-section">
+        <div class="section-title">Transferable Success Factors</div>
+        <div class="analytical-framework">
+            <div class="strategic-point">Market entry methodology with validated scaling approach</div>
+            <div class="strategic-point">Segment-focused strategy with consistent outperformance</div>
+            <div class="strategic-point">Competitive excellence with leadership achievement capability</div>
+            <div class="strategic-point">Rapid scaling model with 18x growth demonstration</div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 9: LATIN AMERICA OPPORTUNITY -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 8</div>
+        <div class="slide-title">Latin America EV Market Opportunity Assessment</div>
+        <div class="slide-subtitle">Market Sizing &amp; Growth Opportunity Quantification</div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">$3.8B</div>
+            <div class="metric-label">Market Size by 2028</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">21.7%</div>
+            <div class="metric-label">Annual Growth Rate</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">125K</div>
+            <div class="metric-label">Brazil EV Sales 2024</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">6.5%</div>
+            <div class="metric-label">Brazil Market Share</div>
+        </div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Market Opportunity Analysis</div>
+        <div class="strategic-point"><strong>Market Size Growth:</strong> $1.4B (2023) → $3.8B (2028) with 21.7% CAGR</div>
+        <div class="strategic-point"><strong>Key Markets:</strong> Brazil (125K sales), Mexico expansion potential, Colombia growth</div>
+        <div class="strategic-point"><strong>Government Support:</strong> Policy incentives and infrastructure development acceleration</div>
+        <div class="strategic-point"><strong>Competitive Landscape:</strong> Less mature market with fewer established players</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Strategic Market Assessment</div>
+        <div class="insight-point">Market timing advantage: Early entry into rapidly growing market segments</div>
+        <div class="insight-point">Competition analysis: Less saturated market with leadership opportunity</div>
+        <div class="insight-point">Infrastructure development: Government investment supporting EV adoption</div>
+        <div class="insight-point">Consumer adoption: Rising environmental consciousness driving demand</div>
+    </div>
+</div>
+
+<!-- SLIDE 10: MARKET ENTRY STRATEGY -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 9</div>
+        <div class="slide-title">Market Entry Strategy &amp; Country Prioritization</div>
+        <div class="slide-subtitle">Strategic Framework for International Expansion</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Country Prioritization Framework</div>
+        <div class="strategic-point"><strong>Brazil Priority:</strong> Largest market with established BYD presence and 327% growth</div>
+        <div class="strategic-point"><strong>Mexico Opportunity:</strong> USMCA access with expanding EV infrastructure</div>
+        <div class="strategic-point"><strong>Colombia Potential:</strong> Government targets 600K EVs by 2030</div>
+        <div class="strategic-point"><strong>Market Readiness:</strong> Infrastructure development and policy support assessment</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Entry Strategy Application</div>
+        <div class="insight-point">Segment focus replication: Target compact SUV segment with proven 2.3x advantage strategy</div>
+        <div class="insight-point">Pricing strategy: $20-25K positioning based on Latin America market analysis</div>
+        <div class="insight-point">Partnership approach: Leverage local dealership networks and government relationships</div>
+        <div class="insight-point">Scaling timeline: Apply domestic 18x growth model with market-specific adaptations</div>
+    </div>
+    
+    <div class="content-section">
+        <div class="section-title">Market Entry Phases</div>
+        <div class="analytical-framework">
+            <div class="strategic-point"><strong>Phase 1:</strong> Brazil market entry with segment-focused launch</div>
+            <div class="strategic-point"><strong>Phase 2:</strong> Market penetration and competitive positioning</div>
+            <div class="strategic-point"><strong>Phase 3:</strong> Regional expansion based on Brazil success</div>
+            <div class="strategic-point"><strong>Phase 4:</strong> Market leadership pursuit and portfolio expansion</div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 11: COMPETITIVE STRATEGY -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 10</div>
+        <div class="slide-title">Competitive Strategy &amp; Differentiation Framework</div>
+        <div class="slide-subtitle">Market Leadership Model Application</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Competitive Positioning Strategy</div>
+        <div class="strategic-point"><strong>Market Leadership Model:</strong> Apply domestic #1 ranking achievement experience</div>
+        <div class="strategic-point"><strong>Competitive Advantage:</strong> Proven ability to outperform established players</div>
+        <div class="strategic-point"><strong>Differentiation Strategy:</strong> Segment focus with superior value proposition</div>
+        <div class="strategic-point"><strong>Response Anticipation:</strong> Prepare for competitive reactions based on China experience</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Strategic Differentiation</div>
+        <div class="insight-point">Product positioning: Leverage proven compact SUV segment superiority</div>
+        <div class="insight-point">Pricing strategy: Competitive positioning with value-focused approach</div>
+        <div class="insight-point">Market timing: Enter during growth phase to maximize opportunity</div>
+        <div class="insight-point">Brand positioning: Establish technology leadership and reliability reputation</div>
+    </div>
+    
+    <div class="content-section">
+        <div class="section-title">Competitive Response Framework</div>
+        <div class="analytical-framework">
+            <div class="strategic-point">Anticipate incumbent response patterns from domestic experience</div>
+            <div class="strategic-point">Prepare defensive strategies for market share protection</div>
+            <div class="strategic-point">Develop offensive strategies for rapid market capture</div>
+            <div class="strategic-point">Monitor competitive landscape for strategic adaptation needs</div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 12: RISK ASSESSMENT -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 11</div>
+        <div class="slide-title">Risk Assessment &amp; Mitigation Framework</div>
+        <div class="slide-subtitle">Strategic Risk Analysis &amp; Contingency Planning</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Risk Identification &amp; Assessment</div>
+        <div class="strategic-point"><strong>Market Saturation Risk:</strong> Apply domestic decline patterns to anticipate market maturity</div>
+        <div class="strategic-point"><strong>Competitive Response:</strong> Expect aggressive reactions from established players</div>
+        <div class="strategic-point"><strong>Political/Economic Risk:</strong> Currency volatility and policy changes in Latin America</div>
+        <div class="strategic-point"><strong>Operational Risk:</strong> Infrastructure limitations and supply chain challenges</div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Risk Mitigation Strategies</div>
+        <div class="insight-point">Performance sustainability: Address factors that caused 69% domestic decline</div>
+        <div class="insight-point">Market diversification: Reduce dependency on single market performance</div>
+        <div class="insight-point">Competitive preparedness: Develop response strategies for market entry reactions</div>
+        <div class="insight-point">Scenario planning: Prepare for multiple market development trajectories</div>
+    </div>
+    
+    <div class="content-section">
+        <div class="section-title">Scenario Analysis Framework</div>
+        <div class="analytical-framework">
+            <div class="strategic-point"><strong>Best Case:</strong> Replicate domestic success with 7%+ market share achievement</div>
+            <div class="strategic-point"><strong>Base Case:</strong> Moderate penetration with 3-5% market share within 3 years</div>
+            <div class="strategic-point"><strong>Worst Case:</strong> Limited adoption with strategic pivot requirements</div>
+            <div class="strategic-point"><strong>Contingency Plans:</strong> Adaptive strategies for each scenario outcome</div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 13: STRATEGIC ROADMAP -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Slide 12</div>
+        <div class="slide-title">Strategic Roadmap &amp; Implementation Framework</div>
+        <div class="slide-subtitle">Integrated Expansion Strategy &amp; Success Metrics</div>
+    </div>
+    
+    <div class="analytical-framework">
+        <div class="framework-title">Implementation Roadmap</div>
+        <div class="strategic-point"><strong>Year 1:</strong> Brazil market entry with 1-2% market share target</div>
+        <div class="strategic-point"><strong>Year 2-3:</strong> Growth acceleration and competitive positioning (3-5% share)</div>
+        <div class="strategic-point"><strong>Year 4-5:</strong> Market leadership pursuit and regional expansion (5%+ share)</div>
+        <div class="strategic-point"><strong>Long-term:</strong> Replicate domestic success model across Latin America</div>
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <div class="metric-value">3-5%</div>
+            <div class="metric-label">Target Market Share Y3</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">18x</div>
+            <div class="metric-label">Proven Growth Model</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">#1-3</div>
+            <div class="metric-label">Target Market Ranking</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">2.3x</div>
+            <div class="metric-label">Segment Advantage Goal</div>
+        </div>
+    </div>
+    
+    <div class="key-insights">
+        <div class="section-title">Success Metrics &amp; KPIs</div>
+        <div class="insight-point">Market share trajectory: Target similar domestic growth pattern (0.6% → 7%+ potential)</div>
+        <div class="insight-point">Sales volume growth: Apply 18x scaling model with market-specific adaptations</div>
+        <div class="insight-point">Competitive positioning: Achieve top-3 ranking within 24 months</div>
+        <div class="insight-point">Segment performance: Maintain 2.3x compact SUV advantage consistently</div>
+    </div>
+    
+    <div class="content-section">
+        <div class="section-title">Strategic Integration Framework</div>
+        <div class="analytical-framework">
+            <div class="strategic-point">Domestic learnings application with international market adaptation</div>
+            <div class="strategic-point">Risk mitigation through market diversification strategy</div>
+            <div class="strategic-point">Performance monitoring with early warning system implementation</div>
+            <div class="strategic-point">Continuous strategy refinement based on market feedback and performance</div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+// Sales Performance Chart
+const salesData = [
+    {date: '2022-02-01', sales: 4517, suvShare: 0.59, compactSuvShare: 1.20, suvRank: 50, compactRank: null},
+    {date: '2022-03-01', sales: 10017, suvShare: 1.26, compactSuvShare: 2.41, suvRank: 16, compactRank: 12},
+    {date: '2022-04-01', sales: 10079, suvShare: 1.99, compactSuvShare: 3.97, suvRank: 7, compactRank: 5},
+    {date: '2022-05-01', sales: 11500, suvShare: 1.81, compactSuvShare: 3.58, suvRank: 6, compactRank: 6},
+    {date: '2022-06-01', sales: 16553, suvShare: 1.76, compactSuvShare: 3.67, suvRank: 8, compactRank: 6},
+    {date: '2022-07-01', sales: 19239, suvShare: 2.15, compactSuvShare: 4.14, suvRank: 4, compactRank: 4},
+    {date: '2022-08-01', sales: 15132, suvShare: 1.68, compactSuvShare: 3.32, suvRank: 8, compactRank: 7},
+    {date: '2022-09-01', sales: 16849, suvShare: 1.84, compactSuvShare: 3.67, suvRank: 3, compactRank: 2},
+    {date: '2022-10-01', sales: 20418, suvShare: 2.33, compactSuvShare: 4.23, suvRank: 3, compactRank: 3},
+    {date: '2022-11-01', sales: 20204, suvShare: 2.64, compactSuvShare: 4.99, suvRank: 2, compactRank: 2},
+    {date: '2022-12-01', sales: 20862, suvShare: 1.93, compactSuvShare: 3.68, suvRank: 6, compactRank: 5},
+    {date: '2023-01-01', sales: 14342, suvShare: 2.17, compactSuvShare: 4.19, suvRank: 4, compactRank: 4},
+    {date: '2023-02-01', sales: 20279, suvShare: 2.88, compactSuvShare: 5.78, suvRank: 3, compactRank: 2},
+    {date: '2023-03-01', sales: 27907, suvShare: 3.46, compactSuvShare: 7.40, suvRank: 3, compactRank: 2},
+    {date: '2023-04-01', sales: 28931, suvShare: 3.53, compactSuvShare: 7.37, suvRank: 1, compactRank: 1},
+    {date: '2023-05-01', sales: 26072, suvShare: 3.02, compactSuvShare: 6.21, suvRank: 2, compactRank: 1},
+    {date: '2023-06-01', sales: 23546, suvShare: 2.42, compactSuvShare: 5.02, suvRank: 3, compactRank: 2},
+    {date: '2023-07-01', sales: 23594, suvShare: 2.61, compactSuvShare: 5.37, suvRank: 3, compactRank: 2},
+    {date: '2023-08-01', sales: 24272, suvShare: 2.42, compactSuvShare: 5.03, suvRank: 4, compactRank: 3},
+    {date: '2023-09-01', sales: 28727, suvShare: 2.72, compactSuvShare: 5.48, suvRank: 3, compactRank: 2},
+    {date: '2023-10-01', sales: 30615, suvShare: 2.87, compactSuvShare: 5.62, suvRank: 2, compactRank: 2},
+    {date: '2023-11-01', sales: 30751, suvShare: 2.87, compactSuvShare: 5.85, suvRank: 3, compactRank: 2},
+    {date: '2023-12-01', sales: 30799, suvShare: 2.61, compactSuvShare: 5.42, suvRank: 2, compactRank: 2},
+    {date: '2024-01-01', sales: 16831, suvShare: 1.53, compactSuvShare: 3.11, suvRank: 13, compactRank: 10},
+    {date: '2024-02-01', sales: 8210, suvShare: 1.44, compactSuvShare: 3.07, suvRank: 13, compactRank: 8},
+    {date: '2024-03-01', sales: 21951, suvShare: 2.60, compactSuvShare: 5.60, suvRank: 3, compactRank: 2},
+    {date: '2024-04-01', sales: 23327, suvShare: 2.99, compactSuvShare: 6.31, suvRank: 2, compactRank: 2},
+    {date: '2024-05-01', sales: 24646, suvShare: 2.86, compactSuvShare: 6.14, suvRank: 2, compactRank: 2},
+    {date: '2024-06-01', sales: 23918, suvShare: 2.62, compactSuvShare: 5.87, suvRank: 2, compactRank: 2},
+    {date: '2024-07-01', sales: 25594, suvShare: 2.88, compactSuvShare: 6.66, suvRank: 2, compactRank: 2},
+    {date: '2024-08-01', sales: 27046, suvShare: 2.78, compactSuvShare: 6.43, suvRank: 2, compactRank: 2},
+    {date: '2024-09-01', sales: 25576, suvShare: 2.37, compactSuvShare: 5.59, suvRank: 2, compactRank: 2},
+    {date: '2024-10-01', sales: 28676, suvShare: 2.42, compactSuvShare: 5.40, suvRank: 2, compactRank: 2},
+    {date: '2024-11-01', sales: 26400, suvShare: 2.10, compactSuvShare: 4.88, suvRank: 2, compactRank: 2},
+    {date: '2024-12-01', sales: 23048, suvShare: 1.62, compactSuvShare: 3.73, suvRank: 9, compactRank: 6},
+    {date: '2025-01-01', sales: 8902, suvShare: 0.94, compactSuvShare: 2.00, suvRank: 32, compactRank: 18},
+    {date: '2025-02-01', sales: 10758, suvShare: 1.52, compactSuvShare: 3.30, suvRank: 11, compactRank: 7},
+    {date: '2025-03-01', sales: 20179, suvShare: 2.06, compactSuvShare: 4.44, suvRank: 4, compactRank: 4},
+    {date: '2025-04-01', sales: 12286, suvShare: 1.36, compactSuvShare: 2.97, suvRank: 10, compactRank: 8},
+    {date: '2025-05-01', sales: 12255, suvShare: 1.19, compactSuvShare: 2.63, suvRank: 19, compactRank: 11},
+    {date: '2025-06-01', sales: 13168, suvShare: 1.21, compactSuvShare: 2.74, suvRank: 19, compactRank: 11}
+];
+
+// Create Sales Performance Chart
+const salesCtx = document.getElementById('salesChart').getContext('2d');
+new Chart(salesCtx, {
+    type: 'line',
+    data: {
+        labels: salesData.map(d => {
+            const date = new Date(d.date);
+            return date.toLocaleDateString('en-US', {month: 'short', year: '2-digit'});
+        }),
+        datasets: [{
+            label: 'Monthly Sales (Units)',
+            data: salesData.map(d => d.sales),
+            borderColor: '#00a693',
+            backgroundColor: 'rgba(0, 166, 147, 0.1)',
+            borderWidth: 3,
+            fill: true,
+            tension: 0.3,
+            pointRadius: 4,
+            pointBackgroundColor: '#00a693',
+            pointBorderColor: '#ffffff',
+            pointBorderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true,
+                grid: {
+                    color: 'rgba(0,0,0,0.1)'
+                },
+                ticks: {
+                    callback: function(value) {
+                        return (value/1000).toFixed(0) + 'K';
+                    }
+                }
+            },
+            x: {
+                grid: {
+                    display: false
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return 'Sales: ' + context.parsed.y.toLocaleString() + ' units';
+                    }
+                }
+            }
+        }
+    }
+});
+
+// Market Share Evolution Chart
+const evolutionCtx = document.getElementById('shareEvolutionChart').getContext('2d');
+const shareData = [
+    {date: 'Feb 2022', totalSuv: 0.59, compactSuv: 1.20},
+    {date: 'Jun 2022', totalSuv: 1.76, compactSuv: 3.67},
+    {date: 'Nov 2022', totalSuv: 2.64, compactSuv: 4.99},
+    {date: 'Apr 2023', totalSuv: 3.53, compactSuv: 7.37},
+    {date: 'Dec 2023', totalSuv: 2.61, compactSuv: 5.42},
+    {date: 'Oct 2024', totalSuv: 2.42, compactSuv: 5.40},
+    {date: 'Jun 2025', totalSuv: 1.21, compactSuv: 2.74}
+];
+
+new Chart(evolutionCtx, {
+    type: 'line',
+    data: {
+        labels: shareData.map(d => d.date),
+        datasets: [{
+            label: 'Total SUV Market Share (%)',
+            data: shareData.map(d => d.totalSuv),
+            borderColor: '#1e3a5f',
+            backgroundColor: 'rgba(30, 58, 95, 0.1)',
+            borderWidth: 3,
+            fill: false,
+            tension: 0.3,
+            pointRadius: 6,
+            pointBackgroundColor: '#1e3a5f',
+            pointBorderColor: '#ffffff',
+            pointBorderWidth: 2
+        }, {
+            label: 'Compact SUV Market Share (%)',
+            data: shareData.map(d => d.compactSuv),
+            borderColor: '#00a693',
+            backgroundColor: 'rgba(0, 166, 147, 0.1)',
+            borderWidth: 3,
+            fill: false,
+            tension: 0.3,
+            pointRadius: 6,
+            pointBackgroundColor: '#00a693',
+            pointBorderColor: '#ffffff',
+            pointBorderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 8,
+                grid: {
+                    color: 'rgba(0,0,0,0.1)'
+                },
+                ticks: {
+                    callback: function(value) {
+                        return value.toFixed(1) + '%';
+                    }
+                }
+            },
+            x: {
+                grid: {
+                    display: false
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                position: 'top',
+                labels: {
+                    padding: 20,
+                    usePointStyle: true
+                }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return context.dataset.label + ': ' + context.parsed.y.toFixed(2) + '%';
+                    }
+                }
+            }
+        }
+    }
+});
+
+// Peak Performance Pie Chart
+const peakCtx = document.getElementById('peakPieChart').getContext('2d');
+new Chart(peakCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['BYD Yuan Plus', 'Other Competitors'],
+        datasets: [{
+            data: [7.37, 92.63],
+            backgroundColor: ['#f5b800', '#e8f4f8'],
+            borderColor: '#ffffff',
+            borderWidth: 3
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '50%',
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: {
+                    padding: 20,
+                    usePointStyle: true
+                }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return context.label + ': ' + context.parsed.toFixed(2) + '%';
+                    }
+                }
+            }
+        }
+    }
+});
+
+// Current Position Pie Chart
+const currentCtx = document.getElementById('currentPieChart').getContext('2d');
+new Chart(currentCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['BYD Yuan Plus', 'Other Competitors'],
+        datasets: [{
+            data: [2.74, 97.26],
+            backgroundColor: ['#e74c3c', '#e8f4f8'],
+            borderColor: '#ffffff',
+            borderWidth: 3
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '50%',
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: {
+                    padding: 20,
+                    usePointStyle: true
+                }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return context.label + ': ' + context.parsed.toFixed(2) + '%';
+                    }
+                }
+            }
+        }
+    }
+});
+</script>
+</body></html>
